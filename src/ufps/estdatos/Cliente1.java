@@ -4,13 +4,15 @@ public class Cliente1 {
 
 	public static void main(String[] args) {
 		
+		// IMPRESIONES DE REFERENCIAS
+		
 		Persona p1 = new Persona();
 		p1.setNombre("Boris Perez");
 		p1.setEdad(32);
 		
 		System.out.println("Persona 1");
 		System.out.println(p1.getNombre() + ": " + 
-							p1.getEdad() + " años.\n");
+							p1.getEdad() + " aï¿½os.\n");
 		
 		Persona p2 = new Persona();
 		p2.setNombre("Rafael Raminez");
@@ -18,7 +20,7 @@ public class Cliente1 {
 		
 		System.out.println("Persona 2");
 		System.out.println(p2.getNombre() + ": " + 
-							p2.getEdad() + " años.\n");
+							p2.getEdad() + " aï¿½os.\n");
 		
 		Persona p3 = p1;
 		p3.setNombre("Maribel Sepulveda");
@@ -26,11 +28,11 @@ public class Cliente1 {
 		
 		System.out.println("Persona 3");
 		System.out.println(p3.getNombre() + ": " + 
-							p3.getEdad() + " años.\n");
+							p3.getEdad() + " aï¿½os.\n");
 		
 		System.out.println("Persona 1");
 		System.out.println(p1.getNombre() + ": " + 
-							p1.getEdad() + " años.\n");
+							p1.getEdad() + " aï¿½os.\n");
 		
 	}
 	
