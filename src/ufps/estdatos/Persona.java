@@ -4,7 +4,14 @@ public class Persona {
 
 	private String nombre;
 	private int edad;
+	private int anioNacimiento;
 	
+	public int getAnioNacimiento() {
+		return anioNacimiento;
+	}
+	public void setAnioNacimiento(int anioNacimiento) {
+		this.anioNacimiento = anioNacimiento;
+	}
 	public String getNombre() {
 		return nombre;
 	}

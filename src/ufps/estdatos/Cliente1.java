@@ -23,6 +23,7 @@ public class Cliente1 {
 							p2.getEdad() + " a�os.\n");
 		
 		Persona p3 = p1;
+//		Persona p3 = new Persona();
 		p3.setNombre("Maribel Sepulveda");
 		p3.setEdad(15);
 		
